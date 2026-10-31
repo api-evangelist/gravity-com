@@ -64,46 +64,73 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Gravity provides a suite of WordPress plugins, including Gravity Forms and Gravity Flow, enabling businesses to create advanced forms, automate workflows, and integrate with numerous services. The company offers a marketplace of trusted developers and regularly runs promotional discounts, such as the Black Friday 2026 ecosystem price drops.
+Gravity (operating as Gravity Forms) provides the leading WordPress form building platform, enabling users to create complex forms, collect payments, automate workflows, and integrate with dozens of third‑party services. The company offers a suite of plugins—including Gravity Forms, Gravity Flow, and Gravity Perks—targeted at agencies, developers, and enterprises. Their ecosystem includes extensive documentation, developer APIs, and a vibrant add‑on marketplace, supporting use cases from simple contact forms to sophisticated data‑driven applications.
 
-**Areas:** Company · WordPress · Forms · Automation · Marketplace
+**Areas:** WordPress · Forms · Automation · Plugins · Low-code
 
 ## Gravity on APIs.io
 
 Everything profiled for Gravity is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gravity-com/](https://apis.io/providers/gravity-com/)** — or go straight to one of the APIs or properties below.
 
+### APIs (1)
+
+- [Gravity Forms REST API](https://apis.io/apis/gravity-com/gravity-forms-rest-api/) — Gravity Forms provides a REST API for interacting with forms, entries, and other resources. Documentation is at the Gravity Forms developer portal.
+
 ### Published properties
 
 Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-#### Security (1)
+#### Security (4)
 
 Authentication, trust centre, and vulnerability disclosure.
 
+- [Gravity Com Authentication](https://apis.io/security/gravity-com/gravity-com-authentication/)
 - [Gravity Com Domain Security](https://apis.io/security/gravity-com/gravity-com-domain-security/)
+- [Gravity Com Trust Center](https://apis.io/security/gravity-com/gravity-com-trust-center/)
+- [Gravity Com Vulnerability Disclosure](https://apis.io/security/gravity-com/gravity-com-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Gravity Com Plans Pricing](https://apis.io/plans/gravity-com/gravity-com-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Gravity Com Rate Limits](https://apis.io/rate-limits/gravity-com/gravity-com-rate-limits/)
 
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-- [Website](https://gravity.com/)
-- [Blog](https://gravity.com/blog/)
-- [GitHub](https://github.com/Gravity)
+- [Website](https://www.gravityforms.com/)
+- [Documentation](https://docs.gravityforms.com/)
+- [Getting started](https://www.gravityforms.com/video/getting-started-on-wordpress/)
+- [API reference](https://docs.gravityforms.com/)
+- [Pricing](https://www.gravityforms.com/pricing/)
+- [Support](https://www.gravityforms.com/help/)
+- [Blog](https://www.gravityforms.com/blog/)
+- [Compliance](https://docs.gravityforms.com/information-for-security-researchers/)
+- [Terms of service](https://www.gravityforms.com/terms-and-conditions/)
+- [Privacy policy](https://www.gravityforms.com/privacy/)
+- [GitHub](https://github.com/gravityforms)
 
 ## API Evangelist rating
 
-**Kin Score 4.6** — minimal · rubric 0.24.0 · scored 2026-10-29
+**Kin Score 38.1** — thin · rubric 0.25.0 · scored 2026-10-28
 
 | Facet | Score |
 |---|---|
-| Discoverability | 48.2 |
+| Discoverability | 57.1 |
 | Contract quality | 0.0 |
 | Contract governance | 0.0 |
-| Operational transparency | 5.3 |
-| Developer ergonomics | 2.4 |
-| Access clarity | 0.0 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 64.3 |
+| Access clarity | 75.8 |
 
-**Agent readiness 3.1** — human-only
+**Agent readiness 11.0** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -111,11 +138,11 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Agentic Access | — |
 | Reversibility Documented | — |
 | MCP Server | documented (partial credit) |
-| Auth Clarity | — |
+| Auth Clarity | bearer (partial credit) |
 | Idempotency | — |
-| Error Semantics | — |
+| Error Semantics | documented (partial credit) |
 | OpenAPI Examples | — |
-| Rate Limit Signal | — |
+| Rate Limit Signal | documented (partial credit) |
 | Event Surface Described | — |
 | Agent Skills | — |
 | Well Known Catalog | — |
@@ -126,8 +153,10 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | — |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
 
-**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gravity-com/](https://apis.io/providers/gravity-com/).
 
